@@ -5,6 +5,7 @@ import {Parallax, ParallaxLayer} from '@react-spring/parallax';
 import bagr from '../src/background.png';
 import lOET from '../src/lifeOnEdgeText.png';
 import p2crisis from '../src/p2Crisis.png';
+import authors from '../src/authors.png';
 function App() {
 
   return (
@@ -31,6 +32,11 @@ function App() {
            }}
         >
         </ParallaxLayer>
+          
+        <ParallaxLayer>
+          <img src={authors}></img>
+        </ParallaxLayer>
+
 
         <ParallaxLayer 
           speed = {0.5}
