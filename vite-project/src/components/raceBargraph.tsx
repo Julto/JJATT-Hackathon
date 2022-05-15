@@ -1,5 +1,6 @@
 import "./styles.css";
-import React from "react";
+import { useState, useEffect } from "react";
+import axios from "axios"
 import {
   BarChart,
   Bar,
@@ -56,6 +57,7 @@ const data = [
 ];
 
 export default function RaceBargraph() {
+    
   return (
     <BarChart
       width={500}
